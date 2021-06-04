@@ -856,3 +856,21 @@
   font-size: 16px;
   font-family: m-poppins;
 }
+.main .ft-main-icon {
+  padding: 57.5px 0;
+}
+.main .ft-main-icon .container .brand1 {
+  margin-left: -2px;
+}
+.main .ft-main-icon .container .brand2 {
+  margin-left: 28px;
+}
+.main .ft-main-icon .container .brand3 {
+  margin-left: 26px;
+}
+.main .ft-main-icon .container .brand4 {
+  margin-left: 26px;
+}
+.main .ft-main-icon .container .brand5 {
+  margin-left: 26px;
+}
