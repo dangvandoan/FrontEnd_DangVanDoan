@@ -820,14 +820,18 @@
   margin-top: -15px;
   letter-spacing: 0.1px;
 }
+.main .ft-main-bottom .container .main-bottom-inner .sign-up {
+  margin-top: 60px;
+}
 .main .ft-main-bottom .container .main-bottom-inner .sign-up form .inp-sub {
   border: 2px solid #dddddd;
   border-radius: 70px;
-  width: 775px;
+  width: 768px;
   background-color: #fff;
   overflow: hidden;
   margin: 0 auto;
   display: flex;
+  height: 70px;
 }
 .main .ft-main-bottom .container .main-bottom-inner .sign-up form .inp-sub .input {
   border: none;
@@ -838,12 +842,17 @@
   font-size: 13px;
   font-family: r-poppins;
   color: #8f8f8f;
+  margin-left: -6px;
 }
 .main .ft-main-bottom .container .main-bottom-inner .sign-up form .inp-sub .button {
   border: none;
   background-color: #0ca8c9;
-  height: 70px;
-  padding: 24px 63px;
-  border-radius: 35px;
+  height: 58px;
+  margin-top: 4px;
+  margin-right: 5px;
+  padding: 16px 54px;
+  border-radius: 58px;
   color: #fff;
+  font-size: 16px;
+  font-family: m-poppins;
 }
