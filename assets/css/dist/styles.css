@@ -170,6 +170,7 @@
   padding-right: 15px;
   font-size: 12px;
   font-family: m-poppins;
+  background-color: #fff;
 }
 .header .main-header .container .main-header-inner .right-main-head .box-search form .text-search {
   flex: 1;
@@ -256,6 +257,9 @@
   line-height: 24px;
   font-family: s-poppins;
   font-size: 14px;
+}
+.main .top-main .slide img {
+  background-size: cover;
 }
 .main .top-main .slide-content {
   position: absolute;
@@ -738,6 +742,7 @@
 .main .ft-main .ft-main-top .container .grid-container .grid-item .content-product .price span {
   color: #696969;
   font-size: 13px;
+  text-decoration: line-through;
 }
 .main .ft-main .ft-main-between {
   background: url('../images/bg_news.png') no-repeat;
@@ -874,11 +879,235 @@
 .main .ft-main-icon .container .brand5 {
   margin-left: 26px;
 }
-.footer .top-footer .container {
-  display: flex;
+.footer .top-footer {
   background-color: #f2f2f2;
+  margin-top: -5px;
+  padding-top: 59.5px;
+  padding-bottom: 39.5px;
+}
+.footer .top-footer .container .top-footer-inner {
+  display: flex;
+  margin-left: -15px;
+}
+.footer .top-footer .container .top-footer-inner ul {
+  list-style: none;
+}
+.footer .top-footer .container .top-footer-inner ul li {
+  color: #000;
+  font-family: s-poppins;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.footer .top-footer .container .top-footer-inner a {
+  text-decoration: none;
+  font-family: m-poppins;
+  font-size: 13px;
+  color: #8f8f8f;
+  letter-spacing: -0.1px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact {
+  margin-left: -26px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul .title-link {
+  margin-top: -23px;
+  text-transform: uppercase;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) {
+  margin-top: 21px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) a {
+  display: flex;
+  letter-spacing: 0.1px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) a .content-link-map {
+  margin-left: 27px;
+  margin-top: -3px;
+  width: 230px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) a .icon-link-email {
+  margin-top: -8px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) a .content-link-email {
+  margin-left: 21px;
+  margin-top: -11px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) a .icon-link-phone {
+  margin-top: -13px;
+  margin-left: 4px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) a .content-link-phone {
+  margin-left: 24px;
+  margin-top: -14px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) .icon-social-network {
+  display: flex;
+  margin-top: 35px;
+  margin-left: -2px;
+}
+.footer .top-footer .container .top-footer-inner .ft-contact ul li:not(:first-child) .icon-social-network a img {
+  margin-right: 23px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company {
+  margin-left: -26px;
+  margin-left: 84px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul .title-link {
+  margin-top: -23px;
+  text-transform: uppercase;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) {
+  margin-top: 21px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) a {
+  display: flex;
+  letter-spacing: 0.1px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) a .content-link-map {
+  margin-left: 27px;
+  margin-top: -3px;
+  width: 230px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) a .icon-link-email {
+  margin-top: -8px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) a .content-link-email {
+  margin-left: 21px;
+  margin-top: -11px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) a .icon-link-phone {
+  margin-top: -13px;
+  margin-left: 4px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) a .content-link-phone {
+  margin-left: 24px;
+  margin-top: -14px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) .icon-social-network {
+  display: flex;
+  margin-top: 35px;
+  margin-left: -2px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) .icon-social-network a img {
+  margin-right: 23px;
+}
+.footer .top-footer .container .top-footer-inner .ft-company ul li:not(:first-child) {
+  margin-top: 16px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori {
+  margin-left: -26px;
+  margin-left: 155px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul .title-link {
+  margin-top: -23px;
+  text-transform: uppercase;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) {
+  margin-top: 21px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) a {
+  display: flex;
+  letter-spacing: 0.1px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) a .content-link-map {
+  margin-left: 27px;
+  margin-top: -3px;
+  width: 230px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) a .icon-link-email {
+  margin-top: -8px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) a .content-link-email {
+  margin-left: 21px;
+  margin-top: -11px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) a .icon-link-phone {
+  margin-top: -13px;
+  margin-left: 4px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) a .content-link-phone {
+  margin-left: 24px;
+  margin-top: -14px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) .icon-social-network {
+  display: flex;
+  margin-top: 35px;
+  margin-left: -2px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) .icon-social-network a img {
+  margin-right: 23px;
+}
+.footer .top-footer .container .top-footer-inner .ft-categori ul li:not(:first-child) {
+  margin-top: 16px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick {
+  margin-left: -26px;
+  margin-left: 132px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul .title-link {
+  margin-top: -23px;
+  text-transform: uppercase;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) {
+  margin-top: 21px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) a {
+  display: flex;
+  letter-spacing: 0.1px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) a .content-link-map {
+  margin-left: 27px;
+  margin-top: -3px;
+  width: 230px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) a .icon-link-email {
+  margin-top: -8px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) a .content-link-email {
+  margin-left: 21px;
+  margin-top: -11px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) a .icon-link-phone {
+  margin-top: -13px;
+  margin-left: 4px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) a .content-link-phone {
+  margin-left: 24px;
+  margin-top: -14px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) .icon-social-network {
+  display: flex;
+  margin-top: 35px;
+  margin-left: -2px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) .icon-social-network a img {
+  margin-right: 23px;
+}
+.footer .top-footer .container .top-footer-inner .ft-quick ul li:not(:first-child) {
+  margin-top: 16px;
+}
+.footer .bottom-footer {
+  padding: 18px 0;
 }
 .footer .bottom-footer .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.footer .bottom-footer .container .text-footer {
+  margin-top: -4px;
+}
+.footer .bottom-footer .container .text-footer a {
+  font-family: m-poppins;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #8f8f8f;
+  letter-spacing: 0.1px;
+}
+.footer .bottom-footer .container .text-footer a span {
+  color: #0ca8c9;
+}
+.footer .bottom-footer .container .icon-footer {
+  margin-top: 2px;
 }

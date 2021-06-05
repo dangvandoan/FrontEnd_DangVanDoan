@@ -164,6 +164,7 @@
                                     padding-right: 15px;
                                     font-size: 12px;
                                     font-family: m-poppins;
+                                    background-color: #fff;
 
                                 }
                             }
@@ -308,7 +309,7 @@
         .slide {
             img {
                 // width: 1920px;
-                // background-size: cover;
+                background-size: cover;
                 // padding-bottom: 6px;
             }
         }
@@ -804,6 +805,7 @@
                                 span {
                                     color: #696969;
                                     font-size: 13px;
+                                    text-decoration: line-through;
                                 }
                             }
 
@@ -1017,18 +1019,189 @@
 //end MAIN
 
 .footer {
-        .top-footer {
-            .container {
-            display: flex;
-            background-color: #f2f2f2;
-        }
-    }
-        .bottom-footer{
-            .container{
+    .top-footer {
+        background-color: #f2f2f2;
+        margin-top: -5px;
+        // padding-bottom: 10px;
+        padding-top: 59.5px;
+        padding-bottom: 39.5px;
+
+        .container {
+            .top-footer-inner {
                 display: flex;
-                justify-content: space-between;
+
+                   margin-left: -15px;
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        color: #000;
+                        font-family: s-poppins;
+                        font-size: 18px;
+
+                        font-weight: 600;
+                        letter-spacing: 0.5px;
+                    }
+                }
+
+                a {
+                    text-decoration: none;
+                    font-family: m-poppins;
+                    font-size: 13px;
+                    // font-weight: 600;
+                    color: #8f8f8f;
+
+                    letter-spacing: -0.1px;
+                }
+
+                .ft-contact {
+                    margin-left: -26px;
+
+                    ul {
+                        .title-link {
+
+                            margin-top: -23px;
+                            text-transform: uppercase;
+
+                        }
+
+                        li {
+                            &:not(:first-child) {
+                                margin-top: 21px;
+
+
+                                a {
+                                    display: flex;
+                                    letter-spacing: 0.1px;
+
+                                    .content-link-map {
+                                        margin-left: 27px;
+                                        margin-top: -3px;
+                                        width: 230px;
+
+                                    }
+
+
+                                    .icon-link-email {
+                                        margin-top: -8px;
+                                    }
+
+                                    .content-link-email {
+                                        margin-left: 21px;
+                                        margin-top: -11px;
+                                    }
+
+                                    .icon-link-phone {
+                                        margin-top: -13px;
+                                        margin-left: 4px;
+                                    }
+
+                                    .content-link-phone {
+                                        margin-left: 24px;
+                                        margin-top: -14px;
+                                    }
+
+                                }
+
+                                .icon-social-network {
+                                    display: flex;
+                                    margin-top: 35px;
+                                    margin-left: -2px;
+
+                                    a {
+                                        img {
+                                            margin-right: 23px;
+                                        }
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .ft-company {
+                    .ft-contact;
+                    margin-left: 84px;
+
+                    ul {
+                        li {
+                            &:not(:first-child) {
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+
+                }
+
+                // end ft-company
+
+                .ft-categori {
+                    .ft-contact;
+                    margin-left: 155px;
+
+                    ul {
+                        li {
+                            &:not(:first-child) {
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+
+                }
+
+                // 
+
+                .ft-quick {
+                    .ft-contact;
+                    margin-left: 132px;
+
+                    ul {
+                        li {
+                            &:not(:first-child) {
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+
+                }
+
+                //
             }
         }
-  
+    }
+
+    .bottom-footer {
+        padding: 18px 0;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .text-footer {
+                margin-top: -4px;
+                // margin-left: 2px;
+                a {
+                    font-family: m-poppins;
+                    font-size: 12px;
+                    font-weight: 500;
+                    text-decoration: none;
+                    color: #8f8f8f;
+                    letter-spacing: 0.1px;
+                    span {
+                        color: @color;
+                    }
+                }
+            }
+            .icon-footer{
+                margin-top: 2px;
+            }
+
+
+        }
+    }
+
 
 }
