@@ -270,6 +270,7 @@
 }
 .main .top-main .slide-content .button-left {
   margin-left: 20px;
+  margin-top: -15px;
   width: 60px;
   height: 60px;
 }
@@ -283,11 +284,13 @@
 .main .top-main .slide-content .button-left button i {
   color: #082b4f;
   font-size: 31px;
+  margin-top: -5px;
+  margin-left: -8px;
 }
 .main .top-main .slide-content .sl-content {
-  margin-left: 310px;
+  margin-left: 308px;
 }
-.main .top-main .slide-content .sl-content .title p {
+.main .top-main .slide-content .sl-content .title div {
   font-family: m-poppins;
   font-size: 70px;
   color: #000;
@@ -295,13 +298,22 @@
   letter-spacing: 0.01em;
   margin-top: -42px;
 }
-.main .top-main .slide-content .sl-content .title p span {
+.main .top-main .slide-content .sl-content .title div span {
   color: #0ca8c9;
+}
+.main .top-main .slide-content .sl-content .title .title-bottom {
+  padding-top: 26px;
 }
 .main .top-main .slide-content .sl-content .tt-content {
   font-family: m-poppins;
   font-size: 18px;
   color: #8f8f8f;
+  margin-top: -9px;
+  margin-left: 2px;
+}
+.main .top-main .slide-content .sl-content .show-link {
+  margin-top: 47px;
+  margin-left: 2px;
 }
 .main .top-main .slide-content .sl-content .show-link a {
   text-decoration: none;
@@ -313,9 +325,11 @@
   width: 82px;
   height: 2px;
   background-color: #0ca8c9;
+  margin-top: 2px;
 }
 .main .top-main .slide-content .button-right {
-  margin-left: 794px;
+  margin-left: 800px;
+  margin-top: -15px;
   width: 60px;
   height: 60px;
 }
@@ -329,6 +343,8 @@
 .main .top-main .slide-content .button-right button i {
   color: #fff;
   font-size: 31px;
+  margin-top: -5px;
+  margin-right: -8px;
 }
 .main .between-main {
   margin-top: -6px;
