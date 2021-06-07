@@ -449,10 +449,12 @@
   height: 510px;
   background-color: #f0f0f0;
   text-align: center;
+  margin-right: 30px;
 }
 .main .between-main .container .advan-bottom-inner .advan-left .advan-content {
   position: absolute;
   z-index: 2;
+  margin-left: -75px;
   padding-top: 325px;
 }
 .main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top {

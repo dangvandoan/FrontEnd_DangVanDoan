@@ -1,0 +1,649 @@
+/* Dành cho máy tính bảng */
+
+@media all and (max-width: 1366px) {
+    .main {
+
+        // background-color: red;
+        .top-main {
+            .slide {
+                img {
+                    width: 1366px;
+                }
+            }
+
+            .slide-content {
+
+                padding: 100px 0;
+
+                .button-left {
+                    margin-left: 20px;
+                    margin-top: 100px;
+
+                }
+
+                .sl-content {
+                    margin-left: 200px;
+                    margin-top: 60px;
+
+                    .title {
+                        div {
+
+                            font-size: 40px;
+                        }
+                    }
+                }
+
+                .button-right {
+                    margin-left: 634px;
+                    margin-top: 100px;
+
+                }
+
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+
+    * {
+        .container {
+            width: 994px;
+        }
+    }
+
+    @color : #0ca8c9;
+
+    .header {
+        .header-top {
+            .container {
+                .web-info {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+
+
+    .main {
+        .top-main {
+            .slide {
+                img {
+                    width: 1024px;
+                }
+            }
+
+            .slide-content {
+
+                padding: 100px 0;
+
+                .button-left {
+                    margin-left: 20px;
+                    margin-top: -15px;
+
+                }
+
+                .sl-content {
+                    margin-left: 200px;
+
+                    .title {
+                        div {
+
+                            font-size: 40px;
+                        }
+                    }
+                }
+
+                .button-right {
+                    margin-left: 275px;
+                    margin-top: -15px;
+
+                }
+
+            }
+        }
+
+        .between-main {
+            margin-top: -6px;
+            // background-color: red;
+
+            .container {
+                .advan-top-inner {
+                    display: flex;
+                }
+
+                .advan-bottom-inner {
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    .advan-left {
+                        width: 653px;
+                        height: 510px;
+                        background-color: #f0f0f0;
+                        text-align: center;
+                        margin-right: 30px; //edit
+
+                        .advan-content {
+                            position: absolute;
+                            z-index: 2;
+                            // width: 50%;
+                            // padding: 320px 190px 38px 190px;
+
+                            padding-top: 325px;
+                            margin-left: -75px; //edit
+
+                            .advan-content-top {
+                                display: flex;
+                                padding-left: 162px;
+                                justify-content: center;
+
+                                .day {
+                                    font-family: s-poppins;
+                                    font-size: 12px;
+                                    color: #000;
+                                    width: 60px;
+                                    height: 62px;
+                                    background-color: #fff;
+                                    padding-top: 8px;
+
+                                    &:not(:first-child) {
+                                        margin-left: 10px;
+                                    }
+
+                                    .advan-number {
+
+                                        font-family: s-poppins;
+                                        font-size: 21px;
+                                        letter-spacing: -1px;
+                                        color: @color;
+
+                                    }
+
+                                    .advan-text {
+                                        margin-top: -6px;
+                                    }
+                                }
+
+                                .hour {
+                                    .day;
+                                }
+
+                                .mins {
+                                    .day;
+                                }
+
+                                .sec {
+                                    .day;
+                                }
+                            }
+
+                            .advan-content-bottom {
+                                .advan-title {
+                                    font-family: s-poppins;
+                                    font-size: 30px;
+                                    margin-top: 18px;
+                                    padding-left: 165px;
+                                }
+
+                                .sale {
+                                    font-family: r-poppins;
+                                    font-size: 18px;
+                                    color: #8f8f8f;
+                                    margin-top: -2px;
+                                    padding-left: 166px;
+
+                                    span {
+                                        color: @color;
+                                    }
+                                }
+                            }
+                        }
+
+                        img {
+                            padding-top: 38px;
+
+                        }
+
+                    }
+
+                    .advan-right {
+
+
+
+                        .advan-right-top {
+                            height: 240px;
+                            width: 457px;
+                            background-color: #f0f0f0;
+                            display: flex;
+                            justify-content: center;
+                            padding-top: 40px;
+                            margin-bottom: 30px;
+                            // .advan-right-bottom;
+
+                            .advan-right-content {
+                                position: absolute;
+                                margin-right: 190px;
+                            }
+
+                            .advan-rt-img {
+                                margin-left: 170px;
+                            }
+
+                            .percent {
+                                padding-top: 6px;
+                                font-family: s-poppins;
+                                font-size: 60px;
+                                text-transform: uppercase;
+                                color: @color;
+                                font-weight: 600;
+                            }
+
+                            .title {
+                                font-family: m-poppins;
+                                font-size: 24px;
+                                color: #000;
+                                text-transform: uppercase;
+                                margin-top: -20px;
+                                font-weight: 600;
+                            }
+
+                            .content {
+                                font-family: r-poppins;
+                                font-size: 18px;
+                                color: #8f8f8f;
+
+                            }
+                        }
+
+                        .advan-right-bottom {
+
+                            .advan-right-top;
+
+                            .advan-right-content {
+                                letter-spacing: -0.01em;
+
+                                .title {
+                                    font-size: 30px;
+                                    padding-top: 63px;
+                                }
+
+                                .content {
+                                    margin-top: -4px;
+
+                                    span {
+                                        color: @color;
+                                    }
+                                }
+
+
+                            }
+
+                            .advan-rt-img {
+                                margin-left: 208px;
+                            }
+
+                        }
+
+                    }
+                }
+
+            }
+        }
+
+        // end between-main
+
+        // 
+        // FOOTER MAIN
+        //_______________________________
+
+        .ft-main {
+            .ft-main-top {
+                .container {
+                    .grid-container {
+                        display: grid;
+                        grid-column-gap: 10px; //edit
+                        grid-row-gap: 42px;
+                        grid-template-columns: auto auto auto auto;
+
+                        .grid-item {
+
+                            .product {
+                                background-color: #f5f5f5;
+                                width: 233px; ///edit
+                                height: 263px;
+
+                                .sell1 {
+                                    margin-left: 32px;
+                                    margin-top: 44px;
+                                }
+
+                                .sell2 {
+                                    margin-left: 60px;
+                                    margin-top: 32px;
+                                }
+
+                                .sell3 {
+                                    margin-left: 84px;
+                                    margin-top: 48px;
+                                }
+
+                                .sell4 {
+                                    margin-left: 54px;
+                                    margin-top: 55px;
+                                }
+
+                                .sell5 {
+                                    margin-left: 58px;
+                                    margin-top: 50px;
+                                }
+
+                                .sell6 {
+                                    margin-left: 48px;
+                                    margin-top: 52px;
+                                }
+
+                                .sell7 {
+                                    margin-left: 87px;
+                                    margin-top: 43px;
+                                }
+
+                                .sell8 {
+                                    margin-left: 81px;
+                                    margin-top: 39px;
+                                }
+                            }
+
+
+
+                        }
+
+                    }
+
+
+
+                }
+            }
+
+            .ft-main-between {
+                background: url('../images/bg_news.png') no-repeat;
+                margin-top: 45px;
+                padding-bottom: 85px;
+
+                .container {
+                    .news {
+                        .news-title {
+
+                            text-align: center;
+
+                            h2 {
+                                position: absolute;
+                                text-align: center;
+                                font-family: s-poppins;
+                                font-size: 42px;
+                                font-weight: 600;
+                                letter-spacing: 0.2px;
+                                margin-left: 344px; //edit
+                                margin-top: 99px;
+                                letter-spacing: 0.4px;
+                                z-index: 2;
+
+                            }
+
+                            .bg-news-title {
+                                font-family: s-poppins;
+                                font-size: 90px;
+                                font-weight: 600;
+                                color: #ebebeb;
+                                padding-top: 62px;
+                                padding-bottom: 25px;
+                                z-index: 1;
+                            }
+                        }
+
+                        .posts {
+                            display: flex;
+
+                            .content-post {
+                                width: 360px;
+
+                                img {
+                                    width: 301px; //edit
+                                }
+
+                                &:not(:first-child) {
+                                    margin-left: 30px;
+                                }
+
+
+                                .title {
+                                    margin-top: 20px;
+
+                                    p {
+                                        color: #000;
+                                        font-family: s-poppins;
+                                        font-size: 16px;
+                                        letter-spacing: 0.25px;
+                                        font-weight: 600;
+                                    }
+
+                                    .day {
+                                        color: #8f8f8f;
+                                        font-family: m-poppins;
+                                        font-size: 12px;
+                                        margin-top: -6px;
+
+                                        span {
+                                            color: @color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            // end footer-main-between
+
+
+        }
+
+        //end footer-main
+
+        .ft-main-icon {
+            padding: 57.5px 0;
+
+            .container {
+                .brand1 {
+                    margin-left: -2px;
+                }
+
+                .brand2 {
+                    margin-left: -20px;
+                }
+
+                .brand3 {
+
+                    margin-left: -20px;
+                }
+
+                .brand4 {
+
+                    margin-left: -20px;
+                }
+
+                .brand5 {
+
+                    margin-left: -20px;
+                }
+            }
+
+        }
+
+
+    }
+
+    //
+    .footer {
+        .top-footer {
+            background-color: #f2f2f2;
+            margin-top: -5px;
+            // padding-bottom: 10px;
+            padding-top: 59.5px;
+            padding-bottom: 39.5px;
+
+            .container {
+                .top-footer-inner {
+                    display: flex;
+
+                    margin-left: -15px;
+
+                    ul {
+                        list-style: none;
+
+                        li {
+                            color: #000;
+                            font-family: s-poppins;
+                            font-size: 18px;
+
+                            font-weight: 600;
+                            letter-spacing: 0.5px;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-family: m-poppins;
+                        font-size: 13px;
+                        // font-weight: 600;
+                        color: #8f8f8f;
+
+                        letter-spacing: -0.1px;
+                    }
+
+                    .ft-contact {
+                        margin-left: -26px;
+
+                        ul {
+                            .title-link {
+
+                                margin-top: -23px;
+                                text-transform: uppercase;
+
+                            }
+
+                            li {
+                                &:not(:first-child) {
+                                    margin-top: 21px;
+
+
+                                    a {
+                                        display: flex;
+                                        letter-spacing: 0.1px;
+
+                                        .content-link-map {
+                                            margin-left: 27px;
+                                            margin-top: -3px;
+                                            width: 230px;
+
+                                        }
+
+
+                                        .icon-link-email {
+                                            margin-top: -8px;
+                                        }
+
+                                        .content-link-email {
+                                            margin-left: 21px;
+                                            margin-top: -11px;
+                                        }
+
+                                        .icon-link-phone {
+                                            margin-top: -13px;
+                                            margin-left: 4px;
+                                        }
+
+                                        .content-link-phone {
+                                            margin-left: 24px;
+                                            margin-top: -14px;
+                                        }
+
+                                    }
+
+                                    .icon-social-network {
+                                        display: flex;
+                                        margin-top: 35px;
+                                        margin-left: -2px;
+
+                                        a {
+                                            img {
+                                                margin-right: 23px;
+                                            }
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .ft-company {
+                        .ft-contact;
+                        margin-left: 60px; //edit
+
+                        ul {
+                            li {
+                                &:not(:first-child) {
+                                    margin-top: 16px;
+                                }
+                            }
+                        }
+
+                    }
+
+                    // end ft-company
+
+                    .ft-categori {
+                        .ft-contact;
+                        margin-left: 85px; //edit
+
+                        ul {
+                            li {
+                                &:not(:first-child) {
+                                    margin-top: 16px;
+                                }
+                            }
+                        }
+
+                    }
+
+                    // 
+
+                    .ft-quick {
+                        .ft-contact;
+                        margin-left: 90px; //edit
+
+                        ul {
+                            li {
+                                &:not(:first-child) {
+                                    margin-top: 16px;
+                                }
+                            }
+                        }
+
+                    }
+
+                    //
+                }
+            }
+        }
+    }
+
+    // end Footer
+
+}
+
+// end media 1024
