@@ -182,6 +182,9 @@
   font-size: 12px;
   font-family: m-poppins;
 }
+.header .main-header .container .main-header-inner .right-main-head .box-search form .text-search input:focus {
+  outline: none;
+}
 .header .main-header .container .main-header-inner .right-main-head .box-search form .bt-search {
   height: 100%;
 }
@@ -443,26 +446,29 @@
 .main .between-main .container .advan-bottom-inner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .main .between-main .container .advan-bottom-inner .advan-left {
-  width: 653px;
-  height: 510px;
-  background-color: #f0f0f0;
+  width: 60%;
   text-align: center;
-  margin-right: 30px;
+  padding-right: 30px;
+  position: relative;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left {
+  background-color: #f0f0f0;
+  height: 510px;
+}
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content {
   position: absolute;
   z-index: 2;
-  margin-left: -75px;
-  padding-top: 325px;
+  top: 325px;
+  right: 194px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top {
   display: flex;
-  padding-left: 162px;
   justify-content: center;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .day {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .day {
   font-family: s-poppins;
   font-size: 12px;
   color: #000;
@@ -471,19 +477,19 @@
   background-color: #fff;
   padding-top: 8px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .day:not(:first-child) {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .day:not(:first-child) {
   margin-left: 10px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .day .advan-number {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .day .advan-number {
   font-family: s-poppins;
   font-size: 21px;
   letter-spacing: -1px;
   color: #0ca8c9;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .day .advan-text {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .day .advan-text {
   margin-top: -6px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .hour {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .hour {
   font-family: s-poppins;
   font-size: 12px;
   color: #000;
@@ -492,19 +498,19 @@
   background-color: #fff;
   padding-top: 8px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .hour:not(:first-child) {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .hour:not(:first-child) {
   margin-left: 10px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .hour .advan-number {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .hour .advan-number {
   font-family: s-poppins;
   font-size: 21px;
   letter-spacing: -1px;
   color: #0ca8c9;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .hour .advan-text {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .hour .advan-text {
   margin-top: -6px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .mins {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .mins {
   font-family: s-poppins;
   font-size: 12px;
   color: #000;
@@ -513,19 +519,19 @@
   background-color: #fff;
   padding-top: 8px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .mins:not(:first-child) {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .mins:not(:first-child) {
   margin-left: 10px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .mins .advan-number {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .mins .advan-number {
   font-family: s-poppins;
   font-size: 21px;
   letter-spacing: -1px;
   color: #0ca8c9;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .mins .advan-text {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .mins .advan-text {
   margin-top: -6px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .sec {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .sec {
   font-family: s-poppins;
   font-size: 12px;
   color: #000;
@@ -534,41 +540,41 @@
   background-color: #fff;
   padding-top: 8px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .sec:not(:first-child) {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .sec:not(:first-child) {
   margin-left: 10px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .sec .advan-number {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .sec .advan-number {
   font-family: s-poppins;
   font-size: 21px;
   letter-spacing: -1px;
   color: #0ca8c9;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-top .sec .advan-text {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-top .sec .advan-text {
   margin-top: -6px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-bottom .advan-title {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-bottom .advan-title {
   font-family: s-poppins;
   font-size: 30px;
   margin-top: 18px;
-  padding-left: 165px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-bottom .sale {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-bottom .sale {
   font-family: r-poppins;
   font-size: 18px;
   color: #8f8f8f;
   margin-top: -2px;
-  padding-left: 166px;
 }
-.main .between-main .container .advan-bottom-inner .advan-left .advan-content .advan-content-bottom .sale span {
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left .advan-content .advan-content-bottom .sale span {
   color: #0ca8c9;
 }
-.main .between-main .container .advan-bottom-inner .advan-left img {
-  padding-top: 38px;
+.main .between-main .container .advan-bottom-inner .advan-left .banner-left img {
+  padding: 38px 0;
+}
+.main .between-main .container .advan-bottom-inner .advan-right {
+  width: 40%;
 }
 .main .between-main .container .advan-bottom-inner .advan-right .advan-right-top {
-  height: 240px;
-  width: 457px;
   background-color: #f0f0f0;
+  height: 240px;
   display: flex;
   justify-content: center;
   padding-top: 40px;
@@ -603,9 +609,8 @@
   color: #8f8f8f;
 }
 .main .between-main .container .advan-bottom-inner .advan-right .advan-right-bottom {
-  height: 240px;
-  width: 457px;
   background-color: #f0f0f0;
+  height: 240px;
   display: flex;
   justify-content: center;
   padding-top: 40px;
@@ -792,16 +797,12 @@
   z-index: 1;
 }
 .main .ft-main .ft-main-between .container .news .posts {
-  display: flex;
-}
-.main .ft-main .ft-main-between .container .news .posts .content-post {
-  width: 360px;
-}
-.main .ft-main .ft-main-between .container .news .posts .content-post:not(:first-child) {
-  margin-left: 30px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: auto auto auto;
 }
 .main .ft-main .ft-main-between .container .news .posts .content-post .title {
-  margin-top: 20px;
+  margin-top: 18px;
 }
 .main .ft-main .ft-main-between .container .news .posts .content-post .title p {
   color: #000;
@@ -867,6 +868,9 @@
   color: #8f8f8f;
   margin-left: -6px;
 }
+.main .ft-main-bottom .container .main-bottom-inner .sign-up form .inp-sub .input:focus {
+  outline: none;
+}
 .main .ft-main-bottom .container .main-bottom-inner .sign-up form .inp-sub .button {
   border: none;
   background-color: #0ca8c9;
@@ -923,6 +927,9 @@
   font-size: 13px;
   color: #8f8f8f;
   letter-spacing: -0.1px;
+}
+.footer .top-footer .container .top-footer-inner a:hover {
+  color: #0ca8c9;
 }
 .footer .top-footer .container .top-footer-inner .ft-contact {
   margin-left: -26px;
