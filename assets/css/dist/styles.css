@@ -813,9 +813,9 @@
   background: url('../images/bg_news.png') no-repeat;
   background-size: cover;
   padding-bottom: 85px;
-  position: relative;
 }
 .main .ft-main .ft-main-between .container .news .news-title {
+  position: relative;
   text-align: center;
 }
 .main .ft-main .ft-main-between .container .news .news-title .tt-news-title {
@@ -824,8 +824,8 @@
   font-size: 42px;
   font-weight: 600;
   letter-spacing: 0.2px;
-  left: 43%;
-  top: 15%;
+  left: 38%;
+  top: 45%;
   letter-spacing: 0.4px;
   z-index: 2;
 }
@@ -836,6 +836,7 @@
   color: #ebebeb;
   padding-top: 62px;
   padding-bottom: 25px;
+  user-select: none;
   z-index: 1;
 }
 .main .ft-main .ft-main-between .container .news .posts .row .content-post img {
