@@ -810,26 +810,28 @@
 
     .ft-main {
 
-        // margin-top: 30px;
+
         .ft-main-top-inner {
 
             .container {
-                width: 1170px;
-                margin: auto;
-                padding: 0;
+                // width: 1170px;
+                // margin: auto;
+                // padding: 0;
 
                 .ft-main-top {
-                    display: flex;
-                    justify-content: space-between;
+
+
                     align-items: center;
-                    // margin-top: -30px;
-                    padding: 23.5px 15px;
-                    // margin-top: 5px;
+
 
                     .ft-main-title {
+                        padding: 24px 0;
+                        position: relative;
 
                         h2 {
-                            margin: 40px 0;
+
+                            top: 50%;
+                            transform: translateY(-50%);
                             color: #000;
                             font-family: poppins;
                             font-size: 42px;
@@ -841,265 +843,106 @@
                         }
 
                         .bg-title {
-                            margin-top: 1px;
+
                             font-size: 90px;
                             font-family: r-poppins;
                             color: #f5f5f5;
                             font-weight: 600;
                             user-select: none;
                             letter-spacing: 1.1px;
-                        }
-
-
-                    }
-
-                    .ft-main-button {
-                        button {
-                            border: none;
-                            background-color: #fff;
-
-                            i {
-                                font-size: 62px;
-
-                            }
-                        }
-
-                        .prev {
-                            color: #cfcfcf;
-                            margin-right: 14px;
-                        }
-
-                        .next {
-                            color: #0ca8c9;
-                            margin-right: -8px;
-                        }
-
-
-                    }
-                }
-
-
-                .grid-container {
-                    display: grid;
-                    grid-column-gap: 30px;
-                    grid-row-gap: 42px;
-                    grid-template-columns: auto auto auto auto;
-
-                    .grid-item {
-
-                        .product {
-                            background-color: #f5f5f5;
-                            // width: 263px;
-                            margin: 0 15px;
-                            height: 263px;
                             position: relative;
-
-                            .sell1 {
-                                // margin-left: 32px;
-                                // margin-top: 44px;
-                                left: 32px;
-                                top: 44px;
-                                position: absolute;
-                            }
-
-                            .sell2 {
-                                .sell1;
-                                // margin-left: 60px;
-                                // margin-top: 32px;
-                                left: 60px;
-                                top: 32px;
-                            }
-
-                            .sell3 {
-                                .sell1;
-                                // margin-left: 84px;
-                                // margin-top: 48px;
-                                left: 84px;
-                                top: 48px;
-                            }
-
-                            .sell4 {
-                                .sell1;
-                                // margin-left: 54px;
-                                // margin-top: 55px;
-                                left: 54px;
-                                top: 55px;
-                            }
-
-                            .sell5 {
-                                .sell1;
-                                // margin-left: 58px;
-                                // margin-top: 50px;
-                                left: 58px;
-                                top: 50px;
-                            }
-
-                            .sell6 {
-                                .sell1;
-                                // margin-left: 48px;
-                                // margin-top: 52px;
-                                left: 48px;
-                                top: 52px;
-                            }
-
-                            .sell7 {
-                                .sell1;
-                                // margin-left: 87px;
-                                // margin-top: 43px;
-                                left: 87px;
-                                top: 43px;
-                            }
-
-                            .sell8 {
-                                .sell1;
-                                // margin-left: 81px;
-                                // margin-top: 39px;
-                                left: 81px;
-                                top: 39px;
-                            }
                         }
 
-                        .content-product {
-                            margin-top: 17px;
-
-                            margin-left: 33px;
-                            letter-spacing: 0.5px;
-                            width: 200px;
-
-
-                            p {
-                                color: #000;
-                                text-align: center;
-                                font-family: s-poppins;
-                                font-size: 14px;
-                                font-weight: 600;
-
-                            }
-
-                            .price {
-                                color: @color;
-                                font-size: 13px;
-                                margin-top: -6px;
-
-                                span {
-                                    color: #696969;
-                                    font-size: 13px;
-                                    text-decoration: line-through;
-                                }
-                            }
-
-                        }
 
                     }
 
-                }
+                    .slick-wrapper-product {
+                        margin: 0 -15px;
 
+                        #slick-product {
+                            .btn-prev {
+                                position: absolute;
+                                top: -18%;
+                                right: 6%;
+                                border: none;
+                                font-size: 62px;
+                                color: #cfcfcf;
+                                font-size: 62px;
+                                z-index: 4;
 
-                .slick-wrapper {
-                    #slick-product {
+                            }
 
-                        .slide-item {
+                            .btn-next {
+                                position: absolute;
+                                top: -18%;
+                                right: 15px;
+                                border: none;
+                                font-size: 62px;
+                                color: @color;
+                                z-index: 5;
+                            }
 
-                            .product {
-                                margin: 0 15px;
-                                background-color: #f5f5f5;
-                                height: 263px;
-                                position: relative;
-
-                                .sell1 {
-
-                                    left: 32px;
-                                    top: 44px;
-                                    position: absolute;
-                                }
-
-                                .sell2 {
-                                    .sell1;
-
-                                    left: 60px;
-                                    top: 32px;
-                                }
-
-                                .sell3 {
-                                    .sell1;
-
-                                    left: 84px;
-                                    top: 48px;
-                                }
-
-                                .sell4 {
-                                    .sell1;
-
-                                    left: 54px;
-                                    top: 55px;
-                                }
-
-                                .sell5 {
-                                    .sell1;
-
-                                    left: 58px;
-                                    top: 50px;
-                                }
-
-                                .sell6 {
-                                    .sell1;
-
-                                    left: 48px;
-                                    top: 52px;
-                                }
-
-                                .sell7 {
-                                    .sell1;
-
-                                    left: 87px;
-                                    top: 43px;
-                                }
-
-                                .sell8 {
-                                    .sell1;
-
-                                    left: 81px;
-                                    top: 39px;
+                            .slick-list {
+                                .slick-track {
+                                    .slick-slide {
+                                        margin: 0 15px;
+                                    }
                                 }
                             }
 
-                            .content-product {
-                                // margin-top: 17px;
+                            .slide-item {
+                                .product {
 
-                                // margin-left: 33px;
-                                margin-top: 16px;
-                                margin-left: 50px;
-                                margin-bottom: 56px;
-                                letter-spacing: 0.5px;
-                                width: 200px;
+                                    height: 263px;
+                                    align-items: center;
+                                    background-color: #f5f5f5;
+                                    display: flex;
 
+                                    img {
 
-                                p {
-                                    color: #000;
+                                        margin: auto;
+                                    }
+                                }
+
+                                .content-product {
                                     text-align: center;
                                     font-family: s-poppins;
-                                    font-size: 14px;
                                     font-weight: 600;
+                                    width: 200px;
+                                    letter-spacing: 0.5px;
+                                    margin: 0 auto;
+                                    padding: 16px 0 40px 0;
 
-                                }
+                                    a {
+                                        color: #000;
+                                        font-size: 14px;
+                                        &:hover{
+                                            color: @color;
+                                            text-decoration: none;
+                                        }
 
-                                .price {
-                                    color: @color;
-                                    font-size: 13px;
-                                    margin-top: -6px;
+                                    }
 
-                                    span {
-                                        color: #696969;
+                                    .price {
+                                        color: @color;
                                         font-size: 13px;
-                                        text-decoration: line-through;
+                                        margin-top: 4px;
+
+                                        span {
+                                            color: #696969;
+                                            font-size: 13px;
+                                            text-decoration: line-through;
+                                        }
                                     }
                                 }
 
                             }
                         }
-
                     }
+
                 }
+
+                // end slick-wrapper
 
             }
         }
